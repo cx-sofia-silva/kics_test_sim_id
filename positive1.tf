@@ -7,5 +7,5 @@ resource "alicloud_ram_account_password_policy" "corporate" {
   hard_expiry                  = true
   max_password_age             = 12
   password_reuse_prevention    = 5
-  max_login_attempts           = 6
+  max_login_attempts           = 4
 }
